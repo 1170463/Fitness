@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#CB009688"
+    android:backgroundTint="#81009688"
+    android:backgroundTintMode="multiply">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+    <ListView
+        android:id="@+id/listview"
+        android:layout_width="342dp"
+        android:layout_height="388dp"
+        android:background="#5995978E"
+        android:cacheColorHint="#95978E"
+        android:translationY="50dp">
+
+
+    </ListView>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="SOME PARTS THAT ARE USUALLY FOUCSED ON !"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+</FrameLayout>
